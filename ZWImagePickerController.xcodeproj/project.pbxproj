@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B928FBE59882B56BBFE0CBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E66FAE32EA22584C4F14551 /* libPods.a */; };
+		184A4E101CABC623007BFF43 /* ZWPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A4E0F1CABC623007BFF43 /* ZWPhotoLibrary.m */; };
+		184A4E141CABC7F8007BFF43 /* ZWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A4E121CABC7F8007BFF43 /* ZWAlbumViewController.m */; };
+		184A4E151CABC7F8007BFF43 /* ZWAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A4E131CABC7F8007BFF43 /* ZWAlbumViewController.xib */; };
+		188C9DB11CBA28EB0013AAD5 /* ZWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C9DAF1CBA28EB0013AAD5 /* ZWImageViewController.m */; };
+		188C9DB21CBA28EB0013AAD5 /* ZWImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188C9DB01CBA28EB0013AAD5 /* ZWImageViewController.xib */; };
+		188C9DB61CBA2F550013AAD5 /* ZWImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C9DB41CBA2F550013AAD5 /* ZWImageCollectionViewCell.m */; };
+		188C9DB71CBA2F550013AAD5 /* ZWImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188C9DB51CBA2F550013AAD5 /* ZWImageCollectionViewCell.xib */; };
+		188C9DBB1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C9DB91CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.m */; };
+		188C9DBC1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188C9DBA1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.xib */; };
 		18D27A801CABBA7900E7C68F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D27A7F1CABBA7900E7C68F /* main.m */; };
 		18D27A831CABBA7900E7C68F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D27A821CABBA7900E7C68F /* AppDelegate.m */; };
 		18D27A861CABBA7900E7C68F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D27A851CABBA7900E7C68F /* ViewController.m */; };
@@ -35,6 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184A4E0E1CABC623007BFF43 /* ZWPhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoLibrary.h; sourceTree = "<group>"; };
+		184A4E0F1CABC623007BFF43 /* ZWPhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoLibrary.m; sourceTree = "<group>"; };
+		184A4E111CABC7F8007BFF43 /* ZWAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlbumViewController.h; sourceTree = "<group>"; };
+		184A4E121CABC7F8007BFF43 /* ZWAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlbumViewController.m; sourceTree = "<group>"; };
+		184A4E131CABC7F8007BFF43 /* ZWAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWAlbumViewController.xib; sourceTree = "<group>"; };
+		188C9DAE1CBA28EB0013AAD5 /* ZWImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageViewController.h; sourceTree = "<group>"; };
+		188C9DAF1CBA28EB0013AAD5 /* ZWImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageViewController.m; sourceTree = "<group>"; };
+		188C9DB01CBA28EB0013AAD5 /* ZWImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWImageViewController.xib; sourceTree = "<group>"; };
+		188C9DB31CBA2F550013AAD5 /* ZWImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageCollectionViewCell.h; sourceTree = "<group>"; };
+		188C9DB41CBA2F550013AAD5 /* ZWImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageCollectionViewCell.m; sourceTree = "<group>"; };
+		188C9DB51CBA2F550013AAD5 /* ZWImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		188C9DB81CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlbumTableViewCell.h; sourceTree = "<group>"; };
+		188C9DB91CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlbumTableViewCell.m; sourceTree = "<group>"; };
+		188C9DBA1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWAlbumTableViewCell.xib; sourceTree = "<group>"; };
 		18D27A7B1CABBA7900E7C68F /* ZWImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D27A7F1CABBA7900E7C68F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D27A811CABBA7900E7C68F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,9 @@
 		18D27A9F1CABBA7A00E7C68F /* ZWImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D27AA31CABBA7A00E7C68F /* ZWImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWImagePickerControllerUITests.m; sourceTree = "<group>"; };
 		18D27AA51CABBA7A00E7C68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E66FAE32EA22584C4F14551 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83EB6528CA1439108C46B7B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F98C0D2BCDFD4FB7EDDE0830 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B928FBE59882B56BBFE0CBF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				18D27A971CABBA7A00E7C68F /* ZWImagePickerControllerTests */,
 				18D27AA21CABBA7A00E7C68F /* ZWImagePickerControllerUITests */,
 				18D27A7C1CABBA7900E7C68F /* Products */,
+				23ADA42F55DC9B0C8F4C72DF /* Pods */,
+				F3C69F2515A1BDF682CED827 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		18D27A7D1CABBA7900E7C68F /* ZWImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
+				18D27AB11CABBBA500E7C68F /* ZWImagePickerControl */,
 				18D27A811CABBA7900E7C68F /* AppDelegate.h */,
 				18D27A821CABBA7900E7C68F /* AppDelegate.m */,
 				18D27A841CABBA7900E7C68F /* ViewController.h */,
@@ -140,6 +171,44 @@
 			path = ZWImagePickerControllerUITests;
 			sourceTree = "<group>";
 		};
+		18D27AB11CABBBA500E7C68F /* ZWImagePickerControl */ = {
+			isa = PBXGroup;
+			children = (
+				184A4E0E1CABC623007BFF43 /* ZWPhotoLibrary.h */,
+				184A4E0F1CABC623007BFF43 /* ZWPhotoLibrary.m */,
+				184A4E111CABC7F8007BFF43 /* ZWAlbumViewController.h */,
+				184A4E121CABC7F8007BFF43 /* ZWAlbumViewController.m */,
+				184A4E131CABC7F8007BFF43 /* ZWAlbumViewController.xib */,
+				188C9DB81CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.h */,
+				188C9DB91CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.m */,
+				188C9DBA1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.xib */,
+				188C9DAE1CBA28EB0013AAD5 /* ZWImageViewController.h */,
+				188C9DAF1CBA28EB0013AAD5 /* ZWImageViewController.m */,
+				188C9DB01CBA28EB0013AAD5 /* ZWImageViewController.xib */,
+				188C9DB31CBA2F550013AAD5 /* ZWImageCollectionViewCell.h */,
+				188C9DB41CBA2F550013AAD5 /* ZWImageCollectionViewCell.m */,
+				188C9DB51CBA2F550013AAD5 /* ZWImageCollectionViewCell.xib */,
+			);
+			path = ZWImagePickerControl;
+			sourceTree = "<group>";
+		};
+		23ADA42F55DC9B0C8F4C72DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F98C0D2BCDFD4FB7EDDE0830 /* Pods.debug.xcconfig */,
+				D83EB6528CA1439108C46B7B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3C69F2515A1BDF682CED827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E66FAE32EA22584C4F14551 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D27AA81CABBA7A00E7C68F /* Build configuration list for PBXNativeTarget "ZWImagePickerController" */;
 			buildPhases = (
+				6248446D66D9BC0716BA61E3 /* Check Pods Manifest.lock */,
 				18D27A771CABBA7900E7C68F /* Sources */,
 				18D27A781CABBA7900E7C68F /* Frameworks */,
 				18D27A791CABBA7900E7C68F /* Resources */,
+				458730DB83BD7E95179F0C64 /* Embed Pods Frameworks */,
+				DFBD038364B785638C6A3EB6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +315,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188C9DBC1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.xib in Resources */,
 				18D27A8E1CABBA7900E7C68F /* LaunchScreen.storyboard in Resources */,
+				188C9DB71CBA2F550013AAD5 /* ZWImageCollectionViewCell.xib in Resources */,
 				18D27A8B1CABBA7900E7C68F /* Assets.xcassets in Resources */,
 				18D27A891CABBA7900E7C68F /* Main.storyboard in Resources */,
+				184A4E151CABC7F8007BFF43 /* ZWAlbumViewController.xib in Resources */,
+				188C9DB21CBA28EB0013AAD5 /* ZWImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +341,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458730DB83BD7E95179F0C64 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6248446D66D9BC0716BA61E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBD038364B785638C6A3EB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18D27A771CABBA7900E7C68F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18D27A861CABBA7900E7C68F /* ViewController.m in Sources */,
+				188C9DB11CBA28EB0013AAD5 /* ZWImageViewController.m in Sources */,
 				18D27A831CABBA7900E7C68F /* AppDelegate.m in Sources */,
+				184A4E141CABC7F8007BFF43 /* ZWAlbumViewController.m in Sources */,
+				188C9DB61CBA2F550013AAD5 /* ZWImageCollectionViewCell.m in Sources */,
 				18D27A801CABBA7900E7C68F /* main.m in Sources */,
+				188C9DBB1CBA3F5E0013AAD5 /* ZWAlbumTableViewCell.m in Sources */,
+				184A4E101CABC623007BFF43 /* ZWPhotoLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +538,11 @@
 		};
 		18D27AA91CABBA7A00E7C68F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98C0D2BCDFD4FB7EDDE0830 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +551,11 @@
 		};
 		18D27AAA1CABBA7A00E7C68F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83EB6528CA1439108C46B7B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +629,7 @@
 				18D27AAA1CABBA7A00E7C68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D27AAB1CABBA7A00E7C68F /* Build configuration list for PBXNativeTarget "ZWImagePickerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +638,7 @@
 				18D27AAD1CABBA7A00E7C68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D27AAE1CABBA7A00E7C68F /* Build configuration list for PBXNativeTarget "ZWImagePickerControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +647,7 @@
 				18D27AB01CABBA7A00E7C68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
